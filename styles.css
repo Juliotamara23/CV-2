@@ -1,0 +1,110 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-52393.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712707200&semt=ais);
+    color: white; /* Texto blanco */
+    padding: 20px;
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 1em;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+.main-content {
+    display: flex;
+}
+
+.sidebar {
+    flex: 1;
+    margin-right: 20px;
+    background-color: #f0f0f0; /* Gris claro */
+    padding: 20px;
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+
+.content {
+    flex: 2;
+    background-color: #f0f0f0; /* Gris claro */
+    padding: 20px;
+    border-radius: 10px; /* Añadir bordes redondeados */
+}
+
+section {
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+section h3 {
+    font-size: 1.5em;
+    border-bottom: 2px solid #001f3f; /* Azul marino */
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.job, .edu {
+    margin-bottom: 15px;
+}
+
+.job h4, .edu h4 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.location, .date, .institution {
+    font-size: 0.9em;
+    color: #666;
+}
+
+.skills ul {
+    list-style: none;
+    padding: 0;
+}
+
+.skills ul li {
+    background: #001f3f; /* Azul marino */
+    color: #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.languages p {
+    font-size: 1em;
+    margin: 0;
+}
