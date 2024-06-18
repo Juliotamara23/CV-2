@@ -1,1 +1,1 @@
-Link del curriculum: (https://github.com/Juliotamara23/CV-2/deployments/github-pages)
+Link del curriculum: (https://juliotamara23.github.io/CV-2/)
