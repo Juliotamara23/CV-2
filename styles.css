@@ -7,20 +7,21 @@ body {
 }
 
 .container {
-    max-width: 1000px;
+    max-width: 800px;
     margin: 20px auto;
     background: #fff;
     padding: 20px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
 }
 
 header {
     text-align: center;
-    margin-bottom: 20px;
-    background-image: url(https://img.freepik.com/foto-gratis/fondo-azul-degradado-lujo-abstracto-azul-oscuro-liso-banner-estudio-vineta-negra_1258-52393.jpg?size=626&ext=jpg&ga=GA1.1.2008272138.1712707200&semt=ais);
+    background-color: #001f3f; /* Azul marino */
     color: white; /* Texto blanco */
     padding: 20px;
-    border-radius: 10px; /* Añadir bordes redondeados */
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 header h1 {
@@ -28,13 +29,9 @@ header h1 {
     margin: 0;
 }
 
-header h2 {
-    font-size: 1.5em;
-    margin: 10px 0;
-}
-
 header p {
     font-size: 1em;
+    margin: 10px 0;
 }
 
 header a {
@@ -46,49 +43,56 @@ header a:hover {
     text-decoration: underline;
 }
 
-.main-content {
-    display: flex;
-}
-
-.sidebar {
-    flex: 1;
-    margin-right: 20px;
-    background-color: #f0f0f0; /* Gris claro */
-    padding: 20px;
-    border-radius: 10px; /* Añadir bordes redondeados */
-}
-
-.content {
-    flex: 2;
-    background-color: #f0f0f0; /* Gris claro */
-    padding: 20px;
-    border-radius: 10px; /* Añadir bordes redondeados */
-}
-
 section {
-    margin-bottom: 15px;
-    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
-section h3 {
+section h2 {
     font-size: 1.5em;
     border-bottom: 2px solid #001f3f; /* Azul marino */
     padding-bottom: 5px;
     margin-bottom: 10px;
 }
 
+.profile {
+    text-align: justify;
+}
+
 .job, .edu {
     margin-bottom: 15px;
 }
 
-.job h4, .edu h4 {
-    font-size: 1.2em;
-    margin: 0;
+.job-header, .edu-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.location, .date, .institution {
+.job h3, .edu h3 {
+    font-size: 1.1em;
+    margin-top: -10px;
+}
+
+.paragraphs {
+    margin-top: -30px;
+}
+
+.location {
+    font-weight: bold;
+}
+
+.location, .date {
     font-size: 0.9em;
     color: #666;
+    text-align: right;
+}
+
+.experience ul{
+    margin-left: 30px;
+}
+
+.experience ul {
+    padding: 0;
 }
 
 .skills ul {
@@ -96,12 +100,13 @@ section h3 {
     padding: 0;
 }
 
-.skills ul li {
-    background: #001f3f; /* Azul marino */
-    color: #fff;
+.skills ul li, .experience ul li {
     margin-bottom: 5px;
-    padding: 10px;
-    border-radius: 5px;
+}
+
+.skills span {
+    color: #666;
+    font-weight: bold;
 }
 
 .languages p {
