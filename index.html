@@ -108,15 +108,6 @@
             <p>Español (Nativo), Inglés (B1)</p>
         </section>
     </div>
-
-    <script>
-        document.getElementById('downloadPdf').addEventListener('click', function () {
-            const { jsPDF } = window.jspdf;
-            const doc = new jsPDF();
-            doc.text(document.body.innerText, 10, 10);
-            doc.save('CV_Julio_Tamara.pdf');
-        });
-    </script>
 </body>
 
 </html>
